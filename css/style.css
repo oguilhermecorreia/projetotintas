@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.title {
+  margin: 0 auto;
+  color: black; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;  
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:  rgb(228, 228, 228);;
+}
+
+.calculo {
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  background-color: rgb(228, 228, 228);
+}
+
+#tit {
+  font-size: 20px;
+}
+
+button{
+  border-color: white;
+  border-width: 7px;
+  padding: 10px;
+  background-color: rgba(228, 228, 228, 0);
+  color: red;
+  cursor: pointer;
+  border-radius: 90px;
+  margin-top: 10px;
+}
+
+.pessoal {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    position: unset;
+    animation-name: unset;
+    animation-duration: 4s;
+    animation-delay: 2s;
+  }
+  
